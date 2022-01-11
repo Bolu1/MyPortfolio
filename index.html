@@ -22,7 +22,7 @@
                  <a href="#project">Clients</a>
                  <a href="#hire"> <button class="px-6 py-2 bg-theme font-bold"> Hire me </button></a>
              </div>
-             <div class="flex md:hidden ">
+             <div class="flex hidden ">
                 <svg viewBox="0 0 100 80" width="40" height="40">
                     <rect width="100" height="10" style="fill:white;"></rect>
                     <rect x="" y="30" width="50" height="10" style="fill:white;"></rect>
@@ -191,21 +191,21 @@
 				<p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
 
 				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
-					<div class="space-y-12">
+					<form class="space-y-12" action="mailto:boluadetifa.com" method="post" enctype="text/plain" >
 						<div>
 							<label class="text-white block mb-6 text-xl font-bold">Name</label>
-							<input class="w-full border border-input-border bg-input px-4 py-4">
+							<input class="w-full border border-input-border bg-input px-4 py-4" type="text" name="name">
 						</div>
 						<div>
 							<label class="text-white block mb-6 text-xl font-bold">Email</label>
-							<input type="email" class="w-full border border-input-border bg-input px-4 py-4">
+							<input type="email" class="w-full border border-input-border bg-input px-4 py-4" type="text" name="mail">
 						</div>
 						<div>
 							<label class="text-white block mb-6 text-xl font-bold">Message</label>
-							<textarea type="email" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
+							<textarea type="email" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none" type="text" name="comment"></textarea>
 						</div>
-						<button class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
-					</div>
+						<button class="px-6 py-2 bg-theme text-white font-bold" type="submit">Send it!</button>
+					</form>
 
 					<div class="mt-12">
 						<!-- Contact info -->
